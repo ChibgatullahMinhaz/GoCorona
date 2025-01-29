@@ -40,6 +40,13 @@ footer{
     background-size: 50% 50%;
     padding-right: 4rem;
 }
+#heroSecond{
+    background-image: url(asset/shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 10% 20%;
+
+}
 #Application{
     background-image: url(asset/shapes/shape-3.png), url(asset/shapes/shape-3.png), url(asset/shapes/shape-3.png), url(asset/shapes/shape-3.png);
     background-repeat: no-repeat;
