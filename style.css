@@ -15,3 +15,6 @@ body{
 footer{
     font-family: var(--lobster-family);
 }
+.primaryColor{
+    color: #FFAD5A;
+}
