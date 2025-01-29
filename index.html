@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoCorona</title>
-    <!-- tailwind -->
+    <!-- tailwind and daisyUI-->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <header>
+    <header class="max-w-[90%] mx-auto">
+        <div class="hero  min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="asset/person/person-0.png" class="max-w-sm  " />
+                <div>
+                    <h1 class=" fontyeseba px-3 border-l-4 border-red-600 text-3xl md:text-5xl font-bold">
+                        Stay Focused on <br>
+                        <span class="text-[#FFAD5A]">Mission 2022
+                        </span>
+                    </h1>
+                    <p class="py-6">
+                        Success comes to those who stay committed. Set clear goals, take consistent action, and never
+                        lose sight of your mission. Every small step today brings you closer to greatness. Stay focused,
+                        stay unstoppable!
+                    </p>
+                    <button class="btn bg-red-500 text-white font-bold">Explore Now</button>
+                    <br> <br> <br>
+                    <small class="text-red-600">Scroll down to explore more about us</small>
 
+                </div>
+            </div>
+        </div>
     </header>
     <!-- main section -->
     <main>
