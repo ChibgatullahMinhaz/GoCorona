@@ -40,6 +40,12 @@ footer{
     background-size: 50% 50%;
     padding-right: 4rem;
 }
+#Application{
+    background-image: url(asset/shapes/shape-3.png), url(asset/shapes/shape-3.png), url(asset/shapes/shape-3.png), url(asset/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right, top right, left bottom;
+    background-size: 30% 30%, 50% 40%, 30% 30%, 20% 20%;
+}
 @media screen and (max-width:576px) {
     #banerOne{
         background-position:  right bottom;
